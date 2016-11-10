@@ -1,6 +1,7 @@
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 
 @import "variables";
+@import "base";
 // After the default variables are set, import the required Compass partials.
 // Feel free to move these lines to your own initialization partial.
 @import "compass/css3/box-sizing";
@@ -49,14 +50,6 @@ html {
 
 /* Sections
    ========================================================================== */
-
-/**
- * Remove the margin in all browsers (opinionated).
- */
-
-body {
-  margin: 0;
-}
 
 /**
  * Add the correct display in IE 9-.
